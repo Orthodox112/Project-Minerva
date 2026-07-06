@@ -7,7 +7,7 @@ And instead of taking round 10 we take a variance for consensus bids belonging t
 
 The elimination of Players causes a change in the interpretation of results here, as:
 
-Since consensus bid is only taken till the last survivng round, the consensus bid length for different seeds varies, making some shorter than the other and hence variance is taken across multiple different rounds, making them not accurate for our purposes.
+Since consensus bid is only taken till the last survivng round, the consensus bid length for different seeds varies, making some shorter than the other and hence the computed variance mixes data from multiple different rounds, making them not accurate for our purposes.
 
 So instead we observe "Bid Variance" and "Average Consensus Bid Across N" and individual consensus plots:
 (Here Bid Variance is done for each round across the seeds and will be 0 if only seed makes it to the paticular round)
