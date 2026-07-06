@@ -11,7 +11,7 @@ Since consensus bid is only taken till the last survivng round, the consensus bi
 
 So instead we observe "Bid Variance" and "Average Consensus Bid Across N" and individual consensus plots:
 (Here Bid Variance is done for each round across the seeds and will be 0 if only seed makes it to the paticular round)
-Here we can really see that with an increase in the number of players the accuracy and convergence towards threshold value increases.
+Here we can really see that with an increase in the number of players the convergence towards threshold value increases.
 And observing the Bid variancee we see that as N increase, the variance decreases and is more stable 
-(Here we must keep in mind that the variance becomes 0 for N=3 Round 8 and N=5 Round 10 because of only 1 surviving seed till that round)
+(Here we must keep in mind that the variance becomes 0 for N=3 Round 8 and N=5 Round 10 because of only 1 surviving seed till that round,so earlier round data might be more accurate than of the last 3 rounds, this again favors our point)
 
